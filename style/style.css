@@ -45,14 +45,25 @@ table {
 
 
 
-nav{
-  position:absolute; left:800px; 
- background-color:black;
-
-    text-align: right;
-    
+ul 
+{ 
+  text-align: right;
+  width: 100%;
+  height: 50px;
+}
+li 
+{
+  float: right; 
+  padding-right: 40px;
 }
 
+nav{
+  position:absolute; 
+  background-color:black;
+  width:100%;
+  
+    
+}
 
 li a {
     font-size: 18px;
@@ -62,36 +73,20 @@ li a {
   }
 
 li a:hover {
-   
-
     background: tomato;
     color: #fff;
   }
 
 
 
- 
-#navlist{
-    overflow: auto;
-  
-    width: 100%;
-  
-}
-#navlist li{
-   padding-top: 20px;
-   padding-right: 65px;
-    float: left;
 
-   
-   
-}
 a {
     color: #fff;
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
     display: block;
-    padding: 0 25px;
+    //padding: 0 25px;
     font-size: 14px;
     line-height: 30px;
     position: relative;
@@ -101,6 +96,7 @@ a {
     background-image: url("../image/edu.jpg");
     background-size: 400px;
     height: 400px;
+ overflow:auto;
 }
 #lab{
     text-shadow: 1px 1px  white;
@@ -116,14 +112,20 @@ padding-left: 300px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 margin-left: 33%;
+//position:centre;
 border: none;
 }
 
 .fa-search{
-   
-    margin-left: -5px;
+  
+    //margin-left: -5px;
     
 }
+
+
+
+
+
 h1{
     padding-top: 25px;
     text-shadow: 1px 1px  darkblue;
@@ -137,66 +139,66 @@ h1{
 
 
 #imgr{
-    margin-left: 100px;
+    //margin-left: 100px;
     background-image: url(../image/road1.png);
     background-size: 450px 300px;
   
-    width: 450px;
+    width: 100%;
     height: 300px;
     background-position: left;
     background-repeat: no-repeat;
 }
 
 #imgr #p1{
-    position: absolute;
-    left:980px;
-    padding-right: 30px;
+    //position: absolute;
+    //left:980px;
+    padding-right:16%;
     font-weight: bold;
     font-size: 25px;
     text-shadow: 1px 1px darkblue;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    text-align: center;
+    text-align: center;float:right;
     color: black;
 }
 #imgr #p2{
     position: absolute;
-    left: 750px;
+   //left: 750px;
     font-size: 20px;
-    
-    padding-right: 55px;
+    float:right;
+    padding-left: 60%;
     text-shadow: 1px 1px  darkblue;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    text-align: center;
+    //text-align: center;
     color: black;
 }
 #conimg{
     height: 22px;
+
     
     width: 40px;
 }
 #h3{
-    position: absolute;
-    left:870px; 
+    //position: absolute;
+    //left:870px; 
     text-align: center;
     font-size: 18px;
     text-shadow: 1px 1px darkblue;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     height:92px;
-    width: 400px;
+float:right;
+margin-right:8%;
+    width: 500px;
     box-shadow: 2px 2px 2px 2px black;
 }
-#hp{
-    position: absolute;
-    left:870px; 
-    text-align: center;
-    font-size: 16px;
+#h3 #hp{
+    font-weight: 400;
     text-shadow: 1px 1px darkblue;
     font-family: 'Montserrat', sans-serif;
-    height:92px;
-    width: 400px   
+   // height:92px;
+    //width: 400px   
 }
 #data1{
     text-align: center;
@@ -207,46 +209,51 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 #data{
+
     background-color:rgb(210, 223, 226);
     height: 500px;
 }
-h4{
-    margin-top: 30px;
-    position: absolute;
-    right:1100px; 
+#h4{
     text-align: center;
     font-size: 18px;
     text-shadow: 1px 1px darkblue;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     height:92px;
-    width: 400px;
+    float:right;
+    margin-right:8%;
+    width: 500px;
     box-shadow: 2px 2px 2px 2px black;
 }
-h5{
-    margin-top: 30px;
-    position: absolute;
-    right:1100px; 
+#h5{
+   // margin-top: 30px;
+  
     text-align: center;
     font-size: 18px;
     text-shadow: 1px 1px darkblue;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     height:92px;
+float:right;
+margin-right:8%;
     width: 400px;
     box-shadow: 2px 2px 2px 2px black;
 }
- #dp{
-    position: absolute;
-    right:850px; 
-    text-align: center;
-    font-size: 16px;
+#h4 #dp{
+ 
     text-shadow: 1px 1px darkblue;
-    font-family: 'Montserrat', sans-serif;
-    height:92px;
-    width: 400px   
+    font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+   
 }
-#data p{
+#h5 #dp{
+
+    text-shadow: 1px 1px darkblue;
+    font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+  
+}
+#data #pid1{
     text-align: center;   
     font-size: 20px;
     padding-top: 15px;
@@ -259,7 +266,7 @@ h5{
 #conf{
     position: absolute;
     padding-top: 20px;
-    left: 950px;
+    //left: 950px;
     width: 450px;
     height: 300px;
 
@@ -281,18 +288,364 @@ footer p{
 
 
 #in ul {
+//background-color:white;
     float: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    //margin-left: 10%;
+    //margin-right: 10%;
     
 
 }
-#in ul li{
-    padding-bottom: 5px;
+#in ul li{ float: left;
+   // padding-bottom: 5px;
     color: white;
 }
 ul #head{
-    padding-top: 40px;
+
+   // padding-top: 40px;
     font-weight: bold;
-    padding-bottom: 5px;
+    //padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 640px) {
+#h3{
+width:100%;
+height:100px;
+margin-top:32%;
+margin-right:0%;
+margin-bottom:7%;
+
+}
+#h3 #hp
+{
+margin-top:5%;}
+#imgr #p2{
+padding-left:0%;
+padding-top:10%;
+margin-top:16%;
+float:none;
+}
+#imgr #p1{
+font-size:35px;
+//padding-top:20%;
+float:none;
+padding-right:0%;
+margin-bottom:10%;
+}
+#imgr
+{
+height:320px;
+background-position:left;
+}
+#data
+{
+width:100%;
+margin-top:180px;
+height:800px;
+}
+#data #pid1
+{
+//text-align:none;
+padding-left:0%;
+padding-right:0%;
+}
+#conf
+{height:200px;
+//position:absolute;
+padding-top:0%;
+width:100%;
+margin-top:350px;
+}
+#h4 {
+margin-top:10%;
+float:none;
+width:100%;
+}
+#h5 {
+margin-top:0%;
+float:none;
+width:100%;
+}
+#myList
+{width:40%;
+}
+}
+
+
+
+
+
+
+
+
+/*
+@media only screen and (max-width: 1007px) {
+  #foot {
+    width:30%;
+  }
+}
+*/
+@media only screen and (min-width: 1008px) {
+ 
+ul 
+{ 
+  text-align: right;
+  width: 100%;
+  height: 50px;
+}
+li 
+{
+  float: right; 
+  padding-right: 40px;
+}
+
+nav{
+  position:absolute; 
+  background-color:black;
+  width:100%;
+  
+    
+}
+
+li a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+li a:hover {
+    background: tomato;
+    color: #fff;
+  }
+
+
+
+
+a {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    //padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+  }
+#img{
+    background-image: url("../image/edu.jpg");
+    background-size: 400px;
+    height: 400px;
+ overflow:auto;
+}
+#lab{
+    text-shadow: 1px 1px  white;
+    color: white; 
+padding-left: 300px;    
+}
+#myList{
+    margin-top: 200px;
+    height: 55px;
+    border-radius: 5px;
+    width: 30%;
+ 
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+margin-left: 33%;
+//position:centre;
+border: none;
+}
+
+.fa-search{
+  
+    //margin-left: -5px;
+    
+}
+
+
+
+
+
+h1{
+    padding-top: 25px;
+    text-shadow: 1px 1px  darkblue;
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+
+#imgr{
+    //margin-left: 100px;
+    background-image: url(../image/road1.png);
+    background-size: 450px 300px;
+  
+    width: 100%;
+    height: 300px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#imgr #p1{
+    //position: absolute;
+    //left:980px;
+    padding-right:16%;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 1px 1px darkblue;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-align: center;float:right;
+    color: black;
+}
+#imgr #p2{
+    position: absolute;
+   //left: 750px;
+    font-size: 20px;
+    float:right;
+    padding-left: 60%;
+    text-shadow: 1px 1px  darkblue;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    //text-align: center;
+    color: black;
+}
+#conimg{
+    height: 22px;
+
+    
+    width: 40px;
+}
+#h3{
+    //position: absolute;
+    //left:870px; 
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px darkblue;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height:92px;
+float:right;
+margin-right:8%;
+    width: 500px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#h3 #hp{
+    font-weight: 400;
+    text-shadow: 1px 1px darkblue;
+    font-family: 'Montserrat', sans-serif;
+   // height:92px;
+    //width: 400px   
+}
+#data1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 25px;
+    text-shadow: 1px 1px darkblue;
+    font-family: 'Montserrat', sans-serif;
+}
+#data{
+
+    background-color:rgb(210, 223, 226);
+    height: 500px;
+}
+#h4{
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px darkblue;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height:92px;
+    float:right;
+    margin-right:8%;
+    width: 500px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#h5{
+   // margin-top: 30px;
+  
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px darkblue;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height:92px;
+float:right;
+margin-right:8%;
+    width: 400px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#h4 #dp{
+ 
+    text-shadow: 1px 1px darkblue;
+    font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+   
+}
+#h5 #dp{
+
+    text-shadow: 1px 1px darkblue;
+    font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+  
+}
+#data #pid1{
+    text-align: center;   
+    font-size: 20px;
+    padding-top: 15px;
+    text-shadow: 1px 1px  darkblue;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+#conf{
+    position: absolute;
+    padding-top: 20px;
+    //left: 950px;
+    width: 450px;
+    height: 300px;
+
+}
+#foot{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+}
+footer p{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px  white;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#in ul {
+//background-color:white;
+    float: left;
+    //margin-left: 10%;
+    //margin-right: 10%;
+    
+
+}
+#in ul li{ float: left;
+   // padding-bottom: 5px;
+    color: white;
+}
+ul #head{
+
+   // padding-top: 40px;
+    font-weight: bold;
+    //padding-bottom: 5px;
+}
+
 }
